@@ -15,6 +15,6 @@
     id <CCCarouselViewDelegate>   delegate_;
 	id <CCCarouselViewDataSource> dataSource_;
 }
-@property (nonatomic, assign) id <CCCarouselViewDelegate>   delegate;
-@property (nonatomic, assign) id <CCCarouselViewDataSource> dataSource;
+@property (nonatomic, assign) IBOutlet id <CCCarouselViewDelegate>   delegate;
+@property (nonatomic, assign) IBOutlet id <CCCarouselViewDataSource> dataSource;
 @end

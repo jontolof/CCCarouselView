@@ -7,6 +7,7 @@
 //
 
 #import "CCCarouselView.h"
+#import "CCCarouselViewCell.h"
 
 @protocol CCCarouselViewDataSource <NSObject>
 - (NSUInteger)numberOfCellsInCarouselView:(CCCarouselView *)carouselView;
@@ -25,6 +26,28 @@
 @synthesize delegate=delegate_;
 @synthesize dataSource=dataSource_;
 
+- (id)initWithCoder:(NSCoder *)aDecoder {
+	self = [super initWithCoder: aDecoder];
+	if (self) {
+		// Add alot of initialization code;
+	}
+	return self;
+}
+
+- (id)initWithFrame:(CGRect)frame {
+	self = [super initWithFrame: frame];
+	if(self) {
+		// Add alot of initialization code;
+	}
+	return self;
+}
+
+- (void)dealloc {
+	delegate_ = nil;
+	dataSource_ = nil;
+	[super dealloc];
+}
+
 - (void)setDelegate:(id<CCCarouselViewDelegate>)delegate {
 	[super setDelegate: delegate];
 	delegate_ = delegate;
@@ -32,5 +55,9 @@
 
 - (id<CCCarouselViewDelegate>)delegate {
 	return delegate_;
+}
+
+- (CCCarouselViewCell *)cellAtIndexPath:(NSIndexPath *)indexPath {
+	return nil;
 }
 @end
