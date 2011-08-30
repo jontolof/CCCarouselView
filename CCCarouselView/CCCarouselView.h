@@ -12,7 +12,9 @@
 @protocol CCCarouselViewDataSource;
 
 @interface CCCarouselView : UIScrollView {
-    
+    id <CCCarouselViewDelegate>   delegate_;
+	id <CCCarouselViewDataSource> dataSource_;
 }
-
+@property (nonatomic, assign) id <CCCarouselViewDelegate>   delegate;
+@property (nonatomic, assign) id <CCCarouselViewDataSource> dataSource;
 @end

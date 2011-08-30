@@ -7,7 +7,7 @@
 //
 
 #import "CCCarouselViewController.h"
-
+#import "CCCarouselView.h"
 
 @implementation CCCarouselViewController
 @synthesize carouselView = carouselView_;
