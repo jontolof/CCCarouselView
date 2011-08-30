@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class CCCarouselView;
 
-@interface CCCarouselViewController : UIViewController {
-    
+@interface CCCarouselViewController : UIViewController
+<
+CCCarouselViewDelegate,
+CCCarouselViewDataSource
+>
+{
+    CCCarouselView *carouselView_;
 }
-
+@property (nonatomic, retain) IBOutlet CCCarouselView *carouselView;
 @end

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol CCCarouselViewDelegate;
+@protocol CCCarouselViewDataSource;
 
 @interface CCCarouselView : UIScrollView {
     

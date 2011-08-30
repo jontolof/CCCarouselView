@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28456709140D32A000971AA5 /* CCCarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28456707140D32A000971AA5 /* CCCarouselViewController.m */; };
+		2845670A140D32A000971AA5 /* CCCarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28456708140D32A000971AA5 /* CCCarouselViewController.xib */; };
 		2881EAD3140C168700811CA2 /* CCCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2881EAD2140C168700811CA2 /* CCCarouselView.m */; };
 		2896B461140766AE00891187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896B460140766AE00891187 /* UIKit.framework */; };
 		2896B463140766AE00891187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896B462140766AE00891187 /* Foundation.framework */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28456706140D32A000971AA5 /* CCCarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCarouselViewController.h; sourceTree = "<group>"; };
+		28456707140D32A000971AA5 /* CCCarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCarouselViewController.m; sourceTree = "<group>"; };
+		28456708140D32A000971AA5 /* CCCarouselViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCarouselViewController.xib; sourceTree = "<group>"; };
 		2881EAD1140C168700811CA2 /* CCCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCarouselView.h; sourceTree = "<group>"; };
 		2881EAD2140C168700811CA2 /* CCCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCarouselView.m; sourceTree = "<group>"; };
 		2896B45C140766AE00891187 /* CCCarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCCarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +88,9 @@
 				2881EAD1140C168700811CA2 /* CCCarouselView.h */,
 				2881EAD2140C168700811CA2 /* CCCarouselView.m */,
 				2896B467140766AE00891187 /* Supporting Files */,
+				28456706140D32A000971AA5 /* CCCarouselViewController.h */,
+				28456707140D32A000971AA5 /* CCCarouselViewController.m */,
+				28456708140D32A000971AA5 /* CCCarouselViewController.xib */,
 			);
 			path = CCCarouselView;
 			sourceTree = "<group>";
@@ -150,6 +158,7 @@
 			files = (
 				2896B46B140766AE00891187 /* InfoPlist.strings in Resources */,
 				2896B474140766AE00891187 /* MainWindow.xib in Resources */,
+				2845670A140D32A000971AA5 /* CCCarouselViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 				2896B46E140766AE00891187 /* main.m in Sources */,
 				2896B471140766AE00891187 /* CCAppDelegate.m in Sources */,
 				2881EAD3140C168700811CA2 /* CCCarouselView.m in Sources */,
+				28456709140D32A000971AA5 /* CCCarouselViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
