@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2881EAD3140C168700811CA2 /* CCCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2881EAD2140C168700811CA2 /* CCCarouselView.m */; };
 		2896B461140766AE00891187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896B460140766AE00891187 /* UIKit.framework */; };
 		2896B463140766AE00891187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896B462140766AE00891187 /* Foundation.framework */; };
 		2896B465140766AE00891187 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2896B464140766AE00891187 /* CoreGraphics.framework */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2881EAD1140C168700811CA2 /* CCCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCarouselView.h; sourceTree = "<group>"; };
+		2881EAD2140C168700811CA2 /* CCCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCarouselView.m; sourceTree = "<group>"; };
 		2896B45C140766AE00891187 /* CCCarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCCarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2896B460140766AE00891187 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2896B462140766AE00891187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +80,8 @@
 				2896B46F140766AE00891187 /* CCAppDelegate.h */,
 				2896B470140766AE00891187 /* CCAppDelegate.m */,
 				2896B472140766AE00891187 /* MainWindow.xib */,
+				2881EAD1140C168700811CA2 /* CCCarouselView.h */,
+				2881EAD2140C168700811CA2 /* CCCarouselView.m */,
 				2896B467140766AE00891187 /* Supporting Files */,
 			);
 			path = CCCarouselView;
@@ -157,6 +162,7 @@
 			files = (
 				2896B46E140766AE00891187 /* main.m in Sources */,
 				2896B471140766AE00891187 /* CCAppDelegate.m in Sources */,
+				2881EAD3140C168700811CA2 /* CCCarouselView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
