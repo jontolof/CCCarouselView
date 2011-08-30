@@ -10,6 +10,17 @@
 
 
 @implementation CCCarouselViewCell
+@synthesize imageView;
+@synthesize label;
+@synthesize detailLabel;
+
+- (id)initWithCoder:(NSCoder *)aDecoder {
+	self = [super initWithCoder: aDecoder];
+	if(self) {
+		// Initialization code
+	}
+	return self;
+}
 
 - (id)initWithFrame:(CGRect)frame
 {

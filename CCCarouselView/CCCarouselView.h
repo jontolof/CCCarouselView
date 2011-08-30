@@ -10,7 +10,6 @@
 
 
 @interface CCCarouselView : UIScrollView {
-    
 }
 
 @end
