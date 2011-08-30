@@ -8,8 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol CCCarouselViewDelegate;
-@protocol CCCarouselViewDataSource;
+@class CCCarouselView;
+
+@protocol CCCarouselViewDataSource <NSObject>
+- (NSUInteger)numberOfCellsInCarouselView:(CCCarouselView *)carouselView;
+- (BOOL)wantsLoopingForCarouselView:(CCCarouselView *)carouselView;
+- (CGSize)cellSizeInCarouselView:(CCCarouselView *)carouselView;
+//- (CCCarouselViewCell *)cellAtIndexPath:(NSIndexPath *)indexPath;
+- (UIEdgeInsets)edgeInsetInCarouselView:(CCCarouselView *)carouselView;
+@end
+
+@protocol CCCarouselViewDelegate <UIScrollViewDelegate>
+- (void)carouselView:(CCCarouselView *) didSelectCellAtIndexPath:(NSIndexPath *)indexPath;
+@end
 
 @interface CCCarouselView : UIScrollView {
     id <CCCarouselViewDelegate>   delegate_;
