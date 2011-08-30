@@ -11,4 +11,7 @@
 
 @implementation CCCarouselView
 
+- (CCCarouselViewCell *)dequeueReusableCell {
+	return nil;
+}
 @end

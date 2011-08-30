@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CCCarouselViewCell.h"
 
-
-@interface CCCarouselView : UIScrollView {
+@interface CCCarouselView : UIScrollView 
+<
+CCCarouselViewCellDelegate
+>
+{
     
 }
-
+- (CCCarouselViewCell *)dequeueReusableCell;
 @end
