@@ -10,7 +10,11 @@
 
 
 @interface CCCarouselViewCell : UIView {
-    
+    UIImageView *imageView;
+	UILabel     *label;
+	UILabel     *detailLabel;
 }
-
+@property (nonatomic, retain) UIImageView *imageView;
+@property (nonatomic, retain) UILabel     *label;
+@property (nonatomic, retain) UILabel     *detailLabel;
 @end
