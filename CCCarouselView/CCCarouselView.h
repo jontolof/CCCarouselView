@@ -23,20 +23,15 @@
 - (void)carouselView:(CCCarouselView *) didSelectCellAtIndexPath:(NSIndexPath *)indexPath;
 @end
 
-@interface CCCarouselView : UIScrollView {
-    id <CCCarouselViewDelegate>   delegate_;
-	id <CCCarouselViewDataSource> dataSource_;
-}
-@property (nonatomic, assign) IBOutlet id <CCCarouselViewDelegate>   delegate;
-@property (nonatomic, assign) IBOutlet id <CCCarouselViewDataSource> dataSource;
-=======
 @interface CCCarouselView : UIScrollView 
 <
 CCCarouselViewCellDelegate
 >
 {
-    
+    id <CCCarouselViewDelegate>   delegate_;
+	id <CCCarouselViewDataSource> dataSource_;
 }
+@property (nonatomic, assign) IBOutlet id <CCCarouselViewDelegate>   delegate;
+@property (nonatomic, assign) IBOutlet id <CCCarouselViewDataSource> dataSource;
 - (CCCarouselViewCell *)dequeueReusableCell;
->>>>>>> CCCarouselViewCell
 @end

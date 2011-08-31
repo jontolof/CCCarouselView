@@ -17,6 +17,7 @@
 		2896B46E140766AE00891187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896B46D140766AE00891187 /* main.m */; };
 		2896B471140766AE00891187 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896B470140766AE00891187 /* CCAppDelegate.m */; };
 		2896B474140766AE00891187 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2896B472140766AE00891187 /* MainWindow.xib */; };
+		28F78B7D140DFF0E00D12264 /* CCCarouselViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F78B7C140DFF0E00D12264 /* CCCarouselViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		2896B46F140766AE00891187 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		2896B470140766AE00891187 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		2896B473140766AE00891187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28F78B7B140DFF0E00D12264 /* CCCarouselViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCarouselViewCell.h; sourceTree = "<group>"; };
+		28F78B7C140DFF0E00D12264 /* CCCarouselViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCarouselViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				2896B472140766AE00891187 /* MainWindow.xib */,
 				2881EAD1140C168700811CA2 /* CCCarouselView.h */,
 				2881EAD2140C168700811CA2 /* CCCarouselView.m */,
+				28F78B7B140DFF0E00D12264 /* CCCarouselViewCell.h */,
+				28F78B7C140DFF0E00D12264 /* CCCarouselViewCell.m */,
 				2896B467140766AE00891187 /* Supporting Files */,
 				28456706140D32A000971AA5 /* CCCarouselViewController.h */,
 				28456707140D32A000971AA5 /* CCCarouselViewController.m */,
@@ -173,6 +178,7 @@
 				2896B471140766AE00891187 /* CCAppDelegate.m in Sources */,
 				2881EAD3140C168700811CA2 /* CCCarouselView.m in Sources */,
 				28456709140D32A000971AA5 /* CCCarouselViewController.m in Sources */,
+				28F78B7D140DFF0E00D12264 /* CCCarouselViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

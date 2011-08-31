@@ -44,11 +44,9 @@
 	return delegate_;
 }
 
-<<<<<<< HEAD
 - (CCCarouselViewCell *)cellAtIndexPath:(NSIndexPath *)indexPath {
-=======
+}
 - (CCCarouselViewCell *)dequeueReusableCell {
->>>>>>> CCCarouselViewCell
 	return nil;
 }
 @end
