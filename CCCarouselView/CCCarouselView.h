@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CCCarouselViewCell.h"
 
 @class CCCarouselView;
 
@@ -28,4 +29,14 @@
 }
 @property (nonatomic, assign) IBOutlet id <CCCarouselViewDelegate>   delegate;
 @property (nonatomic, assign) IBOutlet id <CCCarouselViewDataSource> dataSource;
+=======
+@interface CCCarouselView : UIScrollView 
+<
+CCCarouselViewCellDelegate
+>
+{
+    
+}
+- (CCCarouselViewCell *)dequeueReusableCell;
+>>>>>>> CCCarouselViewCell
 @end
