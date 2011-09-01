@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol CCCarouselViewCellDelegate <NSObject>
+@end
 
 @interface CCCarouselViewCell : UIView {
     UIImageView *imageView;
